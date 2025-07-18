@@ -12,7 +12,7 @@ cd docs/.vuepress/dist
 # github
 git add -A
 git commit -m 'deploy'
-git push -f https://github.com/witty-hamster/tech-blog.git master # 发布到github
+git push -u origin master
 
 cd - # 退回开始所在目录
 rm -rf docs/.vuepress/dist
